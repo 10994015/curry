@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.one{
+
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
+    border: 3px solid red;
+}
+
+.img>img{
+    width: 100%;
+}
